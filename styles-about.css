@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Custom styles for the about page */
+
+/* Center the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the image */
+.rounded-full {
+    border-radius: 50%;
+}
+
+/* Style the title */
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+/* Style the description */
+.text-gray-700 {
+    color: #4b5563;
+}
+
+/* Add animation to the image */
+.animate-pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}

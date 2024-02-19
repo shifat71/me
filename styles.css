@@ -1,0 +1,22 @@
+.profile-img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.page-link {
+    padding: 8px 12px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: #4c51bf;
+    transition: all 0.3s ease;
+    background-color: #e5e7eb; /* Background color */
+}
+
+.page-link:hover {
+    transform: translateY(-2px);
+    border-color: #4c51bf;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #d1d5db; /* Hover background color */
+}
+
